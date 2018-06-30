@@ -1,0 +1,228 @@
+@charset "ut-8";
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+.center{
+    text-align:center;
+}
+
+.italic{
+    font-style:italic;
+}
+
+.bold{
+    font-weight:bold;
+}
+
+
+
+
+
+
+.page{
+    position:relative;
+    width:95%;
+    margin:0 auto;
+    background-color:#2b3f5b;
+    margin-top:10px;
+    box-shadow:0 8px 40px black;
+}
+
+
+
+.header{
+    position:relative;
+    width:108.5%;
+    height:20px;
+    z-index:1;
+    top:-60;
+    left:-50;
+    box-shadow:0 8px 15px -6px black;
+    background-color:#011623;
+}
+
+h1{
+    width:100%;
+    color:#91f2d8;
+    font-size:70px;
+    text-shadow: 3px 3px 20px black;
+    font-family:Aldrich;
+}
+
+h2{
+	margin:50px;
+	font-size:30px;
+	font-family:Aldrich;
+}
+
+p{
+    font-family:Garamond;
+    font-size:1.4em;
+}
+
+img{
+    padding:10px;
+}
+
+.headerImage{
+	height:50px;
+}
+
+
+
+
+.chapLinks{
+	font-size:25px;
+	color:#2b3f5b;
+	display:block;
+	padding:10px 30px;
+	text-decoration:none;
+}
+
+a.chapLinks:hover{
+	text-decoration:underline;
+}
+
+
+.spoilerButton{
+    background-color: #2b3f5b;
+    border: none;
+    color: #98f2f0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    transition-duration:0.4s;
+	cursor:pointer;
+	margin-top:30px;
+	font-family:Garamond;
+}
+
+.spoilerButton:hover{
+    background-color: #497776;
+    color:#98f2f0;
+}
+
+.spoilerButton:active{
+    background-color:#7cc1c0;
+	color:black;
+	transition-duration:0.1s;
+}
+
+#spoiler{
+	padding:30px;
+	background-color:#d2f2ee;
+	display:none;
+	margin-top:50px;
+	color:#770e04;
+	overflow:auto;
+}
+
+
+
+
+
+
+
+
+.contents{
+    position:relative;
+    margin:0 auto;
+    background-color:#ace5dd; 
+    padding:60px 50px;
+}
+
+::-webkit-scrollbar{
+ display: none;
+}
+
+
+
+
+
+
+
+
+
+
+#mySidenav a {
+    position: fixed; 
+    left:-80px; 
+    transition: 0.3s; 
+    padding: 15px;
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: #24e296; 
+    border-radius: 0 5px 5px 0;
+    z-index:99;
+    font-family:Garamond;
+    
+}
+
+#mySidenav a.active{
+    color:#53d1e8;
+    background-color:#53d1e8;
+}
+
+#mySidenav a:hover {
+    left:0;
+    color:#2b3f5b;
+}
+
+.sidenav{
+    background-color:#24e296;
+    margin-top:10px;
+}
+
+
+.notHid{
+    color:#2b3f5b;
+    float:right;
+}
+
+
+#home {
+    top: 20px;
+}
+
+#history {
+    top: 80px;
+}
+
+#symbol {
+    top: 140px;
+}
+
+#contact {
+    top: 200px;
+}
+
+#chaps {
+    top:260px;
+}
+
+
+#topBtn {
+    position: fixed; 
+    left:-65px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    border-radius: 0 5px 5px 0;
+    z-index:99;
+    font-family:Garamond;
+    top:80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color:#600e0e;
+    color:#e5c0c0; 
+}
+
+#topBtn:hover {
+  background-color: #9e1919;
+}
+
+
