@@ -63,9 +63,6 @@ img{
     padding:10px;
 }
 
-.headerImage{
-	height:50px;
-}
 
 
 
@@ -83,44 +80,6 @@ a.chapLinks:hover{
 }
 
 
-.spoilerButton{
-    background-color: #2b3f5b;
-    border: none;
-    color: #98f2f0;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    transition-duration:0.4s;
-	cursor:pointer;
-	margin-top:30px;
-	font-family:Garamond;
-}
-
-.spoilerButton:hover{
-    background-color: #497776;
-    color:#98f2f0;
-}
-
-.spoilerButton:active{
-    background-color:#7cc1c0;
-	color:black;
-	transition-duration:0.1s;
-}
-
-#spoiler{
-	padding:30px;
-	background-color:#d2f2ee;
-	display:none;
-	margin-top:50px;
-	color:#770e04;
-	overflow:auto;
-}
-
-
-
-
-
 
 
 
@@ -134,10 +93,6 @@ a.chapLinks:hover{
 ::-webkit-scrollbar{
  display: none;
 }
-
-
-
-
 
 
 
@@ -185,21 +140,6 @@ a.chapLinks:hover{
     top: 20px;
 }
 
-#history {
-    top: 80px;
-}
-
-#symbol {
-    top: 140px;
-}
-
-#contact {
-    top: 200px;
-}
-
-#chaps {
-    top:260px;
-}
 
 
 #topBtn {

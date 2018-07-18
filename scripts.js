@@ -3,14 +3,6 @@
 
 
 
-function revealSpoiler() {
-    var x = document.getElementById("spoiler");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
 
 
 // When the user scrolls down 20px from the top of the document, show the button
