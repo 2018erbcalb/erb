@@ -30,7 +30,7 @@
 
 .headerT{
     position:relative;
-    top:50px;
+    top:30px;
 }
 .header{
     position:relative;
@@ -141,6 +141,10 @@ a.chapLinks:hover{
 
 #home {
     top: 20px;
+}
+
+#page1 {
+    top: 80px;
 }
 
 
